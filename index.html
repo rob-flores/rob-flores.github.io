@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Tonya's Taqueria</title>
+
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+        <link rel="stylesheet" href="styles.css" />
+        
+    </head>
+
+    <body>
+
+        <!--Navbar-->
+
+        <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="img/tonyas-logo.png" alt="Tonya's Mexican Restaurant Logo" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                data-target="#tonyasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="tonyasNavbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html"><i 
+                            class="fa fa-home fa-lg"></i>Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="menu.html"><i 
+                            class="fa fa-list fa-lg"></i>Menu</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contactUs.html"><i 
+                            class="fa fa-address-card fa-lg"></i>Contact Us</a></li>
+                    </ul>
+                </div> 
+            </div>
+        </nav>
+
+        <!--Carousel-->
+
+        <div class="row row-content">
+            <div class="col-md mx-auto">
+                <div id="homeCarousel" class="carousel slide carousel-fade carousel-wrapper" data-ride="carousel" data-interval="3000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#homeCarousel" data-slide-to="1"></li>
+                        <li data-target="#homeCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="carousel-img-wrapper">
+                                <img class="d-block w-100" src="img/Enchiladas.jpeg" alt="Enchiladas"/>
+                            </div>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Enchiladas</h5>
+                                <p>Made fresh daily with authentic Mexican Flavors.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-img-wrapper">
+                                <img class="d-block w-100" src="img/tacos.jpeg" alt="Tacos"/>
+                            </div>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Tacos</h5>
+                                <p>Delicious tacos with a variety of fillings to satisfy every craving.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-img-wrapper">
+                                <img class="d-block w-100" src="img/menudo.jpeg" alt="Menudo"/>
+                            </div>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Menudo</h5>
+                                <p>Traditional Mexican soup, rich in flavor and history.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#homeCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#homeCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+       <div class="container">
+
+            <!-- Welcome Section -->
+            <div class="row row-content align-items-center">
+                <div class="col-12">
+                    <h1>¡Bienvenidos to Tonya's Taqueria!</h1>
+                    <p class="lead">Authentic Mexican flavors</p>
+                </div>
+            </div>
+
+            <!-- Tamales Section -->
+            <div class="row row-content align-items-center">
+                <p class="col-12 col-md-6">
+                    Tonya has been cooking delicious Mexican cuisines since 1943. Come
+                    and try our delicious tamales or warm up with our savory pozole soup.
+                    No matter what you choose, you're guaranteed to be satisfied.
+                </p>
+                <div class="col-12 col-md-6 text-center">
+                    <img class="img-fluid img-thumbnail" src="img/tamales.png" width="1050" alt="Tamales" />
+                </div>
+            </div>
+
+            <!-- Happy Hour Section -->
+            <div class="row row-content align-items-center">
+                <div class="col-12">
+                    <h1>Join Us For Happy Hour Everyday From 3-5!</h1>
+                </div>
+            </div>
+
+            <div class="row row-content align-items-center">
+                <div class="col-12 col-md-6 text-center">
+                    <img class="img-fluid img-thumbnail" src="img/margarita.jpeg" width="475" alt="Margarita"/>
+                </div>
+                <div class="col-12 col-md-6">
+                    <p>
+                        Come and unwind at our one-of-a-kind bar! Try our famous margaritas
+                        with a rim full of sugar, it's a perfect combination of sweet and tangy.
+                        Or take a sip of a michelada decorated with our secret chamoy recipe
+                        with a beer of your choice.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <footer class="site-footer bg-dark text-white py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-4 mb-3 mb-sm-0">
+                        <h5>Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="index.html" class="text-white">Home</a></li>
+                            <li><a href="menu.html" class="text-white">Menu</a></li>
+                            <li><a href="contactUs.html" class="text-white">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-sm-4 text-center mb-3 mb-sm-0">
+                        <h5>Social</h5>
+                        <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                    </div>
+                    <div class="col-12 text-center">
+                        <small>This website is a portfolio project created by Robert E. Flores</small>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        
+
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="navbar.js"></script>
+        <script src="https://cdn.jsdeliver.net/npm/bootstrap@5.3.0/dist/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

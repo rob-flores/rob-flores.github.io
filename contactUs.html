@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Tonya's Taqueria</title>
+    </head>
+
+    <body>
+       <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="img/tonyas-logo.png" alt="Tonya's Mexican Restaurant Logo" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                data-target="#tonyasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="tonyasNavbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html"><i 
+                            class="fa fa-home fa-lg"></i>Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="menu.html"><i 
+                            class="fa fa-list fa-lg"></i>Menu</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contactUs.html"><i 
+                            class="fa fa-address-card fa-lg"></i>Contact Us</a></li>
+                    </ul>
+                </div> 
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row row-content mb-4 top-section">
+                <div class="col-12 text-center">
+                    <p class="lead">Please contact us:</p>
+                    <ul class="list-unstyled">
+                        <li>By phone: <a href="tel:5555555555">(555) 555-5555</a></li>
+                        <li>By email: <a href="mailto:TonyasRestaurant@email.com">TonyasRestaurant@email.com</a></li>
+                        <li><strong>Or...</strong></p></li>
+                    </ul>
+                </div>
+                <div class="col-12">
+                    <h2>Send us a message</h2>
+                    <hr />
+                </div>
+                <div class="col-md-8 offset-md-2">
+                    <form>
+                        <div class="form-group row">
+                            <label for="name" class="col-md-2 col-form-label">Name</label>
+                            <div class="col-md-10">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Name required" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="email" class="col-md-2 col-form-label">Email</label>
+                            <div class="col-md-10">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Email required" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="phone" class="col-md-2 col-form-label">Phone</label>
+                            <div class="col-md-10">
+                                <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="message" class="col-md-2 col-form-label">Your Message</label>
+                            <div class="col-md-10">
+                                <textarea class="form-control" id="message" name="message" rows="8" required></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="offset-md-2 col-md-10">
+                                <button type="submit" class="btn btn-primary btn-lg"> Send Message
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <footer class="site-footer bg-dark text-white py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-4 mb-3 mb-sm-0">
+                        <h5>Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="index.html" class="text-white">Home</a></li>
+                            <li><a href="menu.html" class="text-white">Menu</a></li>
+                            <li><a href="contactUs.html" class="text-white">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-sm-4 text-center mb-3 mb-sm-0">
+                        <h5>Social</h5>
+                        <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                    </div>
+                    <div class="col-12 text-center">
+                        <small>This website is a portfolio project created by Robert E. Flores</small>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="navbar.js"></script>
+        <script src="https://cdn.jsdeliver.net/npm/bootstrap@5.3.0/dist/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

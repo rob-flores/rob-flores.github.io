@@ -1,0 +1,170 @@
+body {
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff8e1;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Alfa Slab One', cursive;
+    color: #e53935;
+}
+
+.container {
+    background-color: transparent;
+}
+
+.row-content {
+    padding: 0;
+    border-bottom: 1px solid #f0e0c0;
+}
+
+.navbar-brand img {
+    height: 120px; /* logo size */
+    width: auto;
+}
+
+navbar-nav .nav-link {
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-nav .nav-link i {
+    margin-right: 5px; /* space between icon and text */
+}
+
+.navbar-nav .active > .nav-link {
+    font-weight: bold;
+    color: #f8c51c !important; /* godlen highlight for active link */
+}
+
+.carousel {
+    padding-bottom: 40px;
+}
+
+.carousel-wrapper {
+    margin-top: 146px;
+}
+
+@media (max-width: 992px) {
+    .carousel-wrapper {
+        margin-top: 140px;
+    }
+}
+
+@media (max-width: 236px) {
+    .carousel-wrapper {
+        margin-top: 180px;
+    }
+}
+
+.carousel-img-wrapper {
+    height: 600px;
+    overflow: hidden;
+}
+
+.carousel-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.carousel-caption h5 {
+    font-size: 1.5 rem;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 1rem;
+}
+
+.btn {
+    background-color: #e53935; /*Mexican red */
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover, .btn:hover {
+    background-color: rgba(0, 0, 0, 0.4);;
+}
+
+.img-thumbnail {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.home-img {
+    max-height: 400px;
+    max-width: 80%;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8 px rgba(0, 0, 0, 0.1);
+}
+
+.site-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.site-footer a {
+    color: #f8c51c;
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    text-decoration: underline;
+}
+
+.top-section {
+    margin-top: 160px;
+}
+
+@media (max-width: 992px) {
+    .top-section {
+        margin-top: 160px;
+    }
+}
+
+@media (max-width: 236px) {
+    .top-section {
+        margin-top: 200px;
+    }
+}
+
+.btn-social-icon {
+    border-radius: 50%;
+    color: white;
+    background-color: #555;
+    padding: 10px 12px;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.btn-social-icon:hover {
+    transform: scale(1.2);
+    background-color: #f8c51c;
+    color: #333;
+}
+
+.v1 {
+    border-left: 2px solid #ccc;
+    height: auto;
+    margin: 0 150px;
+}
+
+.card-img-top {
+    height: 165px;
+    object-fit: cover;
+}
