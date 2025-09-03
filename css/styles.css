@@ -93,7 +93,34 @@ navbar-nav .nav-link {
     text-decoration: none;
 }
 
-a:hover, .btn:hover {
+#homeCarousel .carousel-control-prev,
+#homeCarousel .carousel-control-next {
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: auto;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+#homeCarousel .carousel-control-prev:hover,
+#homeCarousel .carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: translateY(-50%) scale(1.1);
+}
+
+#homeCarousel .carousel-control-prev-icon,
+#homeCarousel .carousel-control-next-icon {
+    background-size: 100%, 100%;
+    filter: invert(1);
+}
+
+.btn:hover {
     background-color: rgba(0, 0, 0, 0.4);;
 }
 
@@ -164,7 +191,63 @@ a:hover, .btn:hover {
     margin: 0 150px;
 }
 
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover .card-title {
+    color: #d9534f;
+    transition: color 0.3s ease;
+}
+
+.card-body {
+    transition: color 0.3s ease;
+}
+
 .card-img-top {
     height: 165px;
     object-fit: cover;
+}
+
+.form-control:focus {
+    border-color: #d9534f;
+    box-shadow: 0 0 8px rgba(217, 83, 79, 0.3);
+    transition: border-color 0.3s eaes, box-shadow 0.3 ease;
+}
+
+.btn-primary {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 992px) {
+    form .row.mb-3:hover {
+        transform: translateY(-2px);
+        transition: transform 0.2s ease;
+    }
+}
+
+.contact-list a {
+    font-size: 1.1rem;
+    padding: 4px 10px;
+    border-radius: 5px;
+    transition: background-color 0.25s ease, transform 0.25s ease;
+}
+
+.contact-list a:hover {
+    background-color: rgba(217, 83, 79, 0.05);
+}
+
+.contact-list a {
+    margin-right: 8px;
 }
